@@ -52,4 +52,4 @@ all:
 	$(CC) $(CLALGS) -shared *.o -o libjudy.so
 
 clean:
-	rm -rf *.o JudyLTablesGen Judy1TablesGen libjudy.so
+	rm -rf *.o JudyLTablesGen Judy1TablesGen libjudy.so JudyLTables.c Judy1Tables.c
